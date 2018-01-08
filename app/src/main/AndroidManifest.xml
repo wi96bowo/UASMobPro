@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.uasmobpro.shalatjenazah">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Aplikasi Belajar Shalat Jenazah"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true">
+        <activity
+            android:name="com.example.uasmobpro.shalatjenazah.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.uasmobpro.shalatjenazah.IntroActivity"
+            android:label="Selamat Menggunakan Aplikasi"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name="com.example.uasmobpro.shalatjenazah.hal_00home"
+            android:label="Aplikasi Tata Cara Shalat Jenazah"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name="com.example.uasmobpro.shalatjenazah.hal_01hukum"
+            android:label="Hukum Shalat Jenazah"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name="com.example.uasmobpro.shalatjenazah.hal_02syarat"
+            android:label="Syarat Shalat Jenazah"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name="com.example.uasmobpro.shalatjenazah.hal_03rukun"
+            android:label="Rukun Shalat Jenazah"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name="com.example.uasmobpro.shalatjenazah.hal_04cewekcowok"
+            android:label="Pilihan Bacaan Shalat"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name="com.example.uasmobpro.shalatjenazah.hal_04shalatcowok"
+            android:label="Bacaan Shalat Jenazah (Mayit Pria)"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name="com.example.uasmobpro.shalatjenazah.hal_04shalatcewek"
+            android:label="Bacaan Shalat Jenazah (Mayit Wanita)"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name="com.example.uasmobpro.shalatjenazah.hal_07about"
+            android:label="About"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+    </application>
+
+</manifest>
